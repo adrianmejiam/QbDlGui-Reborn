@@ -1,2 +1,4 @@
-web: 
-docker run -d --name qbdlgui -p 5000:5000 -v Directory:/downloads ghcr.io/lilkidsuave/qbdlgui-reborn:latest
+web: python3 qbdl_gui.py
+python3 -m venv qbdl
+source qbdl/bin/activate
+
