@@ -4,7 +4,7 @@ FROM python:3.12-alpine
 # Install gcc and other necessary build tools
 RUN apk add --no-cache gcc musl-dev libffi-dev openssl-dev
 
-EXPOSE 5000
+EXPOSE 80
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
